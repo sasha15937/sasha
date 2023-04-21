@@ -9,3 +9,6 @@ steps:
 - run: pip install -r pytelegramapi
 - run: pip install -r beautifulsoup4
 - run: python pybot.py
+- name: Test with pytest
+      run:
+        pytest
