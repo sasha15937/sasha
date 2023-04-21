@@ -6,4 +6,6 @@ steps:
     python-version: '3.10'
     cache: 'pip' # caching pip dependencies
 - run: pip install -r requests
+- run: pip install -r pytelegramapi
+- run: pip install -r beautifulsoup4
 - run: python pybot.py
