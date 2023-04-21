@@ -43,4 +43,4 @@ jobs:
         pytest
     - name: run       
       run: |
-        pybot.py        
+        python pybot.py        
